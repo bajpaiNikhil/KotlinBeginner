@@ -2,7 +2,14 @@ package com.capgemini.kotlinproject
 
 fun main() {
     val data = arrayOf(1,2,3,4,5) // Array<Int>
+    val num = Array(6,{i -> i*1})
+
+    println("NEWLLY DEFINED ARRAY : ${num.contentToString()}")
+    println("TO GET THE VALUE AT DESIRED INDEX : ${num[4]} ${num.get(4)}")
+
     println(data)
+    data.set(0,6)
+
     println("Array: ${data.contentToString()}")
 
     println("Size of array: ${data.size}")
@@ -46,6 +53,9 @@ fun main() {
     val x = arr1.toIntArray()
     println("int[] : ${x.contentToString()}")
     x.toTypedArray()
+
+
+
 
 
 }
