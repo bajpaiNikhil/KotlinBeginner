@@ -1,6 +1,7 @@
 package com.capgemini.kotlinproject
 
-
+lateinit var f: String //late initilazation.
+// lateinit is not possible in val keywords declaration of variable .
 fun main() {
     println("Hello World!")
     println("Kotlin is multi platform language.")
@@ -55,7 +56,8 @@ fun main() {
 
     println("is Completed: ${!isComplete}")
 
+    f="IamStupid"
+    println("Lateinit variable f : ${f}")
     print("=======")
-
 
 }
