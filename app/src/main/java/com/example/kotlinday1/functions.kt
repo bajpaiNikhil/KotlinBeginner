@@ -28,7 +28,6 @@ fun displayInfo(name: String?, id: Int)  {
     println("ID: $id")
 }
 
-
 fun main() {
     val res = add(10, 20) // calling
     println("Result: $res")
